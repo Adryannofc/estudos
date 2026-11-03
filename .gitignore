@@ -1,38 +1,100 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
-
-# Node
-node_modules/
-dist/
-.next/
-
-# Java
+# ---- Java / Maven / Gradle ----
 *.class
+*.jar
+*.war
+*.ear
+*.nar
+!.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 target/
 build/
+out/
+bin/
 .gradle/
+.mvn/timing.properties
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+hs_err_pid*
+replay_pid*
 
-# Editores / SO
+# ---- Spring ----
+# configs locais e segredos (versione apenas application.yml/properties sem credenciais)
+application-local.*
+application-secret*.*
+*.log
+logs/
+HELP.md
+
+# ---- Banco / Docker local ----
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+pgdata/
+postgres-data/
+docker-compose.override.yml
+
+# ---- IDEs ----
+# IntelliJ
 .idea/
+*.iml
+*.iws
+*.ipr
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+# VS Code (versiona apenas settings e extensions)
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+.history/
+
+# ---- Obsidian ----
+.obsidian/
+
+# ---- Sistema operacional ----
 .DS_Store
 Thumbs.db
+ehthumbs.db
 desktop.ini
+$RECYCLE.BIN/
 
-# Segredos
+# ---- Segredos ----
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
 
-# Claude Code / graphify (saídas locais)
+# ---- Temporários / backups ----
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ---- Node (se algum dia houver front-end) ----
+node_modules/
+
+# ---- Claude Code / graphify (saídas locais) ----
 .claude/settings.local.json
+.claude/worktrees/
 graphify-out/

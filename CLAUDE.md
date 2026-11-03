@@ -4,11 +4,9 @@ Repositório público de estudos de engenharia backend com Java + Spring Boot, s
 
 ## Estrutura
 
-- `diagnostico/` guarda as provas D1/D2/D3 e a `retrospectiva.md`.
-- `modulos/NN-nome/` tem `notas/` e `exercicios/` para cada um dos 17 módulos do plano.
-- `projetos/` guarda projetos de consolidação (um por subpasta, com README e testes).
-- `caderno-engenharia/` e `adrs/` guardam experimentos e decisões.
+- A estrutura é enxuta de propósito e cresce sob demanda; não recrie pastas vazias "por antecipação".
 - `_templates/` tem modelos de nota, exercício e diário; comece novos arquivos a partir deles.
+- O plano prevê 17 módulos, provas de diagnóstico (D1 Java, D2 SQL + HTTP, D3 Spring Core), projetos de consolidação e ADRs; crie as pastas só quando forem usadas.
 
 ## Como me ajudar a estudar
 
