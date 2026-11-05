@@ -2,10 +2,6 @@
 
 Projeto Maven para exercícios de Java, organizados por tópico. As notas registram os enunciados e o progresso.
 
-## Exercícios disponíveis
-
-- [D1 · Livro-caixa](notas/D1-livro-caixa.md) · Em andamento. O código ainda não compila e os testes estão pendentes.
-
 ## Requisitos
 
 - JDK 21 (a versão está em `maven.compiler.release`, no `pom.xml`).
@@ -13,9 +9,7 @@ Projeto Maven para exercícios de Java, organizados por tópico. As notas regist
 
 ## Estrutura
 
-- [`src/main/java/dev/estudos/diagnostico/`](src/main/java/dev/estudos/diagnostico/) · Código do diagnóstico D1.
 - [`src/main/java/dev/estudos/playground/`](src/main/java/dev/estudos/playground/) · Experimentos rápidos.
-- [`notas/`](notas/) · Enunciados, progresso e retrospectiva.
 
 ## Convenções
 
@@ -39,7 +33,7 @@ O nome do arquivo `.java` não pode ter hífen, por isso a nota usa `E01-primos`
 
 ## Como executar
 
-O projeto ainda não compila enquanto o D1 estiver com o seletor do menu incompleto. Depois de corrigir esse trecho, execute os comandos abaixo em `Java/exercicios`.
+Execute os comandos abaixo em `Java/exercicios`.
 
 | Objetivo | Comando |
 |---|---|
