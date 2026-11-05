@@ -97,4 +97,12 @@ node_modules/
 # ---- Claude Code / graphify (saídas locais) ----
 .claude/settings.local.json
 .claude/worktrees/
+CLAUDE.md
+AGENTS.md
 graphify-out/
+
+# ---- Artefatos locais ----
+/output/
+/tmp/
+**/.github/modernize/
+/Java/docs/Trilha Java & Spring.pdf
