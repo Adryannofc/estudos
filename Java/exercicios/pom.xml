@@ -5,9 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>dev.estudos</groupId>
-  <artifactId>diagnostico-d1-livro-caixa</artifactId>
+  <artifactId>exercicios</artifactId>
   <version>0.1.0-SNAPSHOT</version>
-  <name>Diagnóstico D1 · Livro-caixa</name>
+  <name>Exercícios Java</name>
+  <description>Projeto único com os exercícios de Java, organizados por tópico.</description>
 
   <properties>
     <maven.compiler.release>21</maven.compiler.release>
@@ -35,6 +36,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.6.1</version>
+      </plugin>
+      <!-- Permite rodar qualquer classe com main pelo terminal: mvnw exec:java -Dexec.mainClass=... -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.6.4</version>
       </plugin>
     </plugins>
   </build>

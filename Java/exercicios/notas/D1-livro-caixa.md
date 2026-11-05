@@ -2,6 +2,11 @@
 
 Prova de autonomia (90 min, sem tutorial e sem IA). Parte do plano *Backend Java + Spring: do zero ao avançado*.
 
+**Status:** em andamento. A compilação está pendente enquanto o menu usa o objeto `Scanner` como seletor para opções inteiras. Os testes ainda serão escritos.
+
+- [Código do livro-caixa](../src/main/java/dev/estudos/diagnostico/livrocaixa/)
+- [Retrospectiva do diagnóstico](retrospectiva.md)
+
 ## Enunciado
 
 Implemente um livro-caixa que recebe eventos `Entrada` e `Saida` e totaliza o saldo usando `BigDecimal`.
@@ -10,13 +15,9 @@ Implemente um livro-caixa que recebe eventos `Entrada` e `Saida` e totaliza o sa
 - Utilizar classes imutáveis ou `records`; adicionar testes para ordem dos eventos, zero e saldo insuficiente.
 - Explicar estrutura de dados, `equals`/`hashCode` e tratamento de falhas.
 
-## Como executar
+## Validação
 
-Requisitos: JDK 21.
-
-```powershell
-.\mvnw test
-```
+Quando o menu estiver compilando e os testes forem adicionados, rode `.\mvnw.cmd test` em `Java/exercicios`.
 
 ## Checklist de pronto
 
