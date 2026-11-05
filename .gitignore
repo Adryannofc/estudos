@@ -56,10 +56,8 @@ docker-compose.override.yml
 nbproject/
 nbbuild/
 nbdist/
-# VS Code (versiona apenas settings e extensions)
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
+# VS Code
+.vscode/
 .history/
 
 # ---- Obsidian ----
@@ -106,3 +104,8 @@ graphify-out/
 /tmp/
 **/.github/modernize/
 /Java/docs/Trilha Java & Spring.pdf
+
+# ---- Configurações e modelos locais ----
+/.editorconfig
+/.gitattributes
+/_templates/

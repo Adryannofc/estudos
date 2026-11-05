@@ -18,7 +18,7 @@ Projeto Maven para exercícios de Java, organizados por tópico. As notas regist
 | **Pacote do exercício** | `dev.estudos.<tópico>.eNN<nome>`, por exemplo `dev.estudos.logica.e01primos` |
 | **Classes** | Nome em PascalCase dentro do pacote: `Primos.java` |
 | **Testes** | Mesmo pacote em `src/test`, classe terminada em `Test`: `PrimosTest.java` |
-| **Nota** | `notas/E01-primos.md`, criada a partir de `_templates/exercicio.md` |
+| **Nota** | `notas/E01-primos.md` |
 | **Numeração** | Global e sequencial (E01, E02, ...), independente do tópico |
 | **Provas diagnósticas** | Prefixo `D` (D1, D2, D3), sem número `E` |
 
@@ -28,7 +28,7 @@ O nome do arquivo `.java` não pode ter hífen, por isso a nota usa `E01-primos`
 
 1. Escolha o tópico (ou crie um pacote novo em `src/main/java/dev/estudos/`, com um `package-info.java`).
 2. Crie o subpacote `eNN<nome>` com a classe, e o mesmo subpacote em `src/test` com o teste.
-3. Copie `_templates/exercicio.md` para `notas/ENN-nome.md` e preencha enunciado, abordagem, complexidade e aprendizado.
+3. Crie `notas/ENN-nome.md` e preencha enunciado, abordagem, complexidade e aprendizado.
 4. Rode `.\mvnw test` e faça um commit pequeno em português.
 
 ## Como executar
