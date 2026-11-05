@@ -6,7 +6,7 @@
 | --- | --- |
 | **Escopo** | Linguagem, biblioteca padrão, ferramentas e práticas de engenharia para backend |
 | **Versão de referência** | Java 25 LTS |
-| **Alvo atual dos exercícios** | Java 21, definido no `pom.xml` |
+| **Alvo atual dos exercícios** | Java 25, definido no `pom.xml` |
 | **Revisão do plano** | 5 de novembro de 2026 |
 
 Ao concluir a trilha, você terá praticado a escrita de programas Java, a modelagem de regras de negócio, a integração com arquivos, HTTP e bancos relacionais, e a investigação de problemas de concorrência e desempenho. O percurso adapta o mapa do roadmap.sh à ordem de estudo do repositório e usa a documentação oficial para definir versões e contratos das APIs. [Roadmap Java](https://roadmap.sh/java) · [Mapa completo do roadmap.sh](https://roadmap.sh/pdfs/roadmaps/java.pdf) · [Dev.java](https://dev.java/learn/)
@@ -28,7 +28,7 @@ Ao concluir a trilha, você terá praticado a escrita de programas Java, a model
 3. **Registre evidências.** Marque cada item quando conseguir demonstrá-lo em código ou explicar o comportamento observado. Guarde o comando de execução, um caso de fronteira e o resultado obtido. Use os modelos locais de nota e exercício em `_templates/`.
 4. **Feche a etapa pela entrega.** Execute-a a partir do terminal, verifique os casos esperados, explique uma decisão e faça uma pequena mudança de requisito. Use o critério indicado em cada etapa para decidir se pode avançar.
 
-**Compatibilidade.** O Java 25 orienta as leituras e os laboratórios avançados. Enquanto o projeto de exercícios tiver alvo 21, use nele os recursos disponíveis nesse alvo. Execute práticas exclusivas do Java 25 em um ambiente separado. Recursos em *preview* ficam nas extensões e exigem configuração explícita. [Projeto de exercícios](../exercicios/README.md) · [Suporte LTS](https://www.oracle.com/europe/java/technologies/java-se-support-roadmap.html) · [Alvo de compilação no Maven](https://maven.apache.org/guides/mini/guide-java-target.html)
+**Compatibilidade.** Use o JDK 25 para as leituras, os exercícios e os laboratórios. Recursos em *preview* ficam nas extensões e exigem configuração explícita. [Projeto de exercícios](../exercicios/README.md) · [Suporte LTS](https://www.oracle.com/europe/java/technologies/java-se-support-roadmap.html) · [Alvo de compilação no Maven](https://maven.apache.org/guides/mini/guide-java-target.html)
 
 ## Mapa de progressão
 
@@ -184,4 +184,4 @@ Com o núcleo da linguagem e as integrações das etapas 01 a 06, você já pode
 | [Dev.java · Tutoriais](https://dev.java/learn/) | Aprender conceitos com exemplos e localizar guias sobre linguagem, APIs e ferramentas. |
 | [Java Language Specification 25](https://docs.oracle.com/javase/specs/jls/se25/html/index.html) | Verificar regras de tipos, expressões, avaliação e concorrência. |
 | [API do Java 25](https://docs.oracle.com/en/java/javase/25/docs/api/index.html) | Conferir o contrato de uma classe ou método, a versão de introdução e o status de *preview*. |
-| [Mudanças da linguagem por versão](https://docs.oracle.com/en/java/javase/25/language/java-language-changes-release.html) | Verificar quais recursos estão disponíveis no alvo 21 e quais exigem uma versão mais recente. |
+| [Mudanças da linguagem por versão](https://docs.oracle.com/en/java/javase/25/language/java-language-changes-release.html) | Identificar em qual versão cada recurso da linguagem entrou e quais recursos estão em *preview* no Java 25. |
