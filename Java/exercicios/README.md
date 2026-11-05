@@ -4,8 +4,20 @@ Projeto Maven para exercícios de Java, organizados por tópico. As notas regist
 
 ## Requisitos
 
-- JDK 21 (a versão está em `maven.compiler.release`, no `pom.xml`).
-- Nada mais: o Maven vem pelo Wrapper (`mvnw`).
+- JDK 25 LTS. O alvo de compilação é Java 25, definido por `maven.compiler.release` no [pom.xml](pom.xml).
+- O Maven é fornecido pelo Wrapper (`mvnw`).
+
+### Conferir o JDK no Windows
+
+No PowerShell, execute estes comandos a partir de `Java/exercicios`.
+
+```powershell
+java -version
+javac -version
+.\mvnw.cmd -v
+```
+
+Se o Maven mostrar uma versão diferente da esperada, confira se `JAVA_HOME` aponta para a pasta do JDK escolhido e se o `bin` desse mesmo JDK tem precedência no `Path`.
 
 ## Estrutura
 
